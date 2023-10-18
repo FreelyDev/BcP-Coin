@@ -1,5 +1,6 @@
 import './customModal.scss'
 import Bounce from 'react-reveal/Bounce';
+import close_icon from '../../assets/icons/icon_close.svg';
 import { useEffect, useState } from 'react';
 interface Props {
     showModal: boolean,
@@ -31,7 +32,7 @@ const CustomModal: React.FC<Props> = ({showModal, setShowModal, title, children}
                 <div className={`model_content`}>
                     <div className="modal_header">
                         <h1 className={`modal_title`}>{title}</h1>
-                        <button className={`close_btn`} onClick={onClose}><img src="/assets/icons/icon_close.svg" alt="" /></button>
+                        <button className={`close_btn`} onClick={onClose}><img src={close_icon} alt="" /></button>
                     </div>
                     <div className="modal_wrapper">
                         {children}

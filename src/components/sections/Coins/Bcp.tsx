@@ -6,7 +6,8 @@ import video_01 from '../../../assets/videos/Glass Box Bit Coin Alpha (Converted
 import video_02 from '../../../assets/videos/Animation -A4.mp4';
 import video_03 from '../../../assets/videos/Glass Box Eth.mp4';
 import video_04 from '../../../assets/videos/Block Bitcoin.mp4';
-import video_05 from '../../../assets/videos/Block Eth.mp4';
+import video_05 from '../../../assets/videos/EXCHANGES HOUSE Preview 2.mp4';
+import video_06 from '../../../assets/videos/Block Eth.mp4';
 import img_01 from '../../../assets/modal_imgs/bcp_01.png';
 import coin_bcp from '../../../assets/coin_bcp.png';
 
@@ -38,10 +39,10 @@ export default function Bcp() {
               <VideoCard video_url={video_04}/>
               </div>
               <div className="col">
-                <img src={img_01} alt="" />
+              <VideoCard video_url={video_05}/>
               </div>
               <div className="col">
-              <VideoCard video_url={video_05}/>
+              <VideoCard video_url={video_06}/>
               </div>
             </div>
             <div className="wrapper">
