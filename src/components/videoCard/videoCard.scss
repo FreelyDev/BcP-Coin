@@ -1,0 +1,46 @@
+@import "../../global.scss";
+.video_div{
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
+    position: relative;
+    .video_cotent{
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+        overflow: hidden;
+        video{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+    }
+    .video_cover{
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        position: absolute;
+        background-image: linear-gradient(-45deg, #15161c, #20222a, #171820) ;
+        border-radius: 10px;
+        animation: load_ani 1s ease 0s infinite;
+        @keyframes load_ani {
+            0%{
+                filter: brightness(1);
+            }
+            50%{
+                filter: brightness(0.9);
+            }
+            100%{
+                filter: brightness(1);
+            }
+        }
+    }
+}

@@ -1,0 +1,129 @@
+@import "../../../global.scss";
+.play_game{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+    box-sizing: border-box;
+    padding: 6rem 46px;
+    
+    @include mobile_potrait{
+        padding: 6rem 10px;
+    }
+
+    .content{
+        width: 100%;
+        z-index: 2;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        @include mobile_potrait{
+        }
+        
+        
+
+        .wrapper{
+            width: 100%;
+            display: flex;
+            // align-items: center;
+            justify-content: space-between;
+            max-width: 1200px;
+            @include mobile_potrait{
+                flex-direction: column;
+            }
+            .left{
+                display: flex;
+                align-items: flex-start;
+                justify-content: space-between;
+                flex-direction: column;
+                width: 58%;
+                box-sizing: border-box;
+                padding-right: 72px;
+                @include mobile_potrait{
+                    width: 100%;
+                    padding-right: 0;
+                    justify-content: center;
+                    align-items: center;
+                    margin-bottom: 2rem;
+                }
+                button{
+                    border: 1px solid #FFFFFF;
+                    background-color: #ffffff00;
+                    color: #F1CE5F;
+                    padding: 21px 40px;
+                    font-weight: 600;
+                    box-sizing: border-box;
+                    width: 300px;
+                    border-radius: 10px;
+                    cursor: pointer;
+                    transition: all 0.3s ease;
+                    &:hover{
+                        opacity: 0.7;
+                    }
+                }
+            }
+            .right{
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+                width: 42%;
+                @include mobile_potrait{
+                    width: 100%;
+                    justify-content: center;
+                }
+                img{
+                    width: 100%;
+                }
+                
+            }
+            .col{
+                width: 30%;
+                display: flex;
+                flex-direction: column;
+                @include mobile_potrait{
+                    width: 100%;
+                }
+            }
+            .w_full{
+                width: 100%;
+                p{
+                    width: 50%;
+                    @include mobile_potrait{
+                        width: 100%;
+                    }
+                }
+            }
+            h1{
+                font-size: 48px;
+                font-weight: 900;
+                color: #fff;
+                @include mobile_potrait{
+                    font-size: 36px;
+                    text-align: center;
+                }
+                span{
+                    color: #F9E785;
+                }
+            }
+            p{
+                font-size: 18px;
+                color: #d1d1d1;
+                margin-bottom: 1.25rem;
+                @include mobile_potrait{
+                    font-size: 15px;
+                    text-align: center;
+                }
+                span{
+                    font-size: 18px;
+                    color: #9dd945;
+                    font-weight: 600;
+                    font-family: CONSOLAB;
+                }
+            }
+        }
+
+    }
+}
