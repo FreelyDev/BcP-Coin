@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import './about.scss'
-import img1 from '../../../assets/Finish_Corp_1.png' 
+import img1 from '../../../assets/bcp_project_01.png' 
 import img2 from '../../../assets/Group 427319086.png' 
 import img3 from '../../../assets/icons/icon_star_01.svg' 
 

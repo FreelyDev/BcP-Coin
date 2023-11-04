@@ -18,6 +18,7 @@ const NavBar = () => {
                     </HashLink>
                 </div>
                 <ul className="nav_list">
+                    <li><HashLink to={'#coins'}  smooth>BcP Coin</HashLink></li>
                     <li><HashLink to={'#coins'}  smooth>BcPB Coin</HashLink></li>
                     <li><HashLink to={'#coins'}  smooth>Pump Coin</HashLink></li>
                     <li><HashLink to={'#coins'}  smooth>Dilly Coin</HashLink></li>

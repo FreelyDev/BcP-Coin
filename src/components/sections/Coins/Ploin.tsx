@@ -5,7 +5,7 @@ import polin_01 from '../../../assets/modal_imgs/polin_01.png';
 import polin_02 from '../../../assets/modal_imgs/polin_02.png';
 import polin_03 from '../../../assets/modal_imgs/polin_03.png';
 import polin_04 from '../../../assets/modal_imgs/polin_04.png';
-import polin_05 from '../../../assets/modal_imgs/polin_05.png';
+import polin_05 from '../../../assets/modal_imgs/polin_06.png';
 export default function Ploin() {
   return (
     <div className="my_modal">
