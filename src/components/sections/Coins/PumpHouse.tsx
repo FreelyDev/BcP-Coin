@@ -7,6 +7,7 @@ import video_url_02 from '../../../assets/videos/Replace_this.mp4';
 import video_url_03 from '../../../assets/videos/Glass Box Eth.mp4';
 import pumphouse_03 from '../../../assets/modal_imgs/pumphouse_03.png';
 import pumphouse_04 from '../../../assets/modal_imgs/pumphouse_04.png';
+import video_url_04 from '../../../assets/videos/PumpHouse_section_Animation.mp4';
 
 export default function PumpHouse() {
   return (
@@ -30,7 +31,8 @@ export default function PumpHouse() {
                 <p>Lorem ipsum dolor sit amet consectetur. Aliquam sit duis nisi vel. Venenatis magna aliquam lectus in vulputate duis nibh platea. Tristique nisl amet sed gravida. Sed quisque morbi ullamcorper urna est eu mus nam. Id nibh iaculis nunc malesuada massa in. Id elit nunc vitae integer cras pellentesque est. Justo nibh nec a aliquam amet enim.</p>
               </div>
               <div className="img_div">
-                <img src={pumphouse_03} alt="" />
+                <VideoCard video_url={video_url_04}/>
+                {/* <img src={pumphouse_03} alt="" /> */}
               </div>
             </div>
             <div className="wrapper reverse_wrap">
